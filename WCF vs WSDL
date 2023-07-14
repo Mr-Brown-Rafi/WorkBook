@@ -1,0 +1,23 @@
+WCF (Windows Communication Foundation) and WSDL (Web Services Description Language)
+are both technologies used in the development of web services, but they serve different purposes.
+
+WSDL:
+WSDL is an XML-based language used for describing web services. It provides a standard format for 
+defining the interface, operations, and data types of a web service. WSDL is used to describe the 
+endpoints, methods, input/output messages, and protocols supported by a web service. It acts as a 
+contract between the service provider and the service consumer, enabling interoperability between 
+different platforms and programming languages. WSDL files are typically used in SOAP-based web services.
+
+WCF:
+WCF is a framework developed by Microsoft for building distributed systems and creating service-oriented 
+applications. It provides a unified programming model for building web services, allowing developers to 
+create services that can be accessed over various protocols such as HTTP, TCP, and MSMQ. WCF supports multiple 
+communication patterns, including request/reply, one-way, duplex, and more. It also offers features like message 
+security, reliable messaging, and transaction support.
+
+WCF can use WSDL as part of its service description. When you create a WCF service, you can expose its metadata 
+in the form of a WSDL document. This allows clients to discover and consume the service using the WSDL description.
+
+In summary, WSDL is a language used to describe the structure and operations of a web service, while WCF is a 
+framework that provides a programming model for building web services with additional features and flexibility. 
+WCF can use WSDL to expose the service's metadata and enable interoperability with clients that understand the WSDL format.
